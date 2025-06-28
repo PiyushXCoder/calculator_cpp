@@ -1,0 +1,48 @@
+
+# Build artifacts
+/build/
+/out/
+/bin/
+/lib/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake-build-*/
+
+# CMake generated files
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# Logs and dumps
+*.log
+*.stackdump
+
+# Editor and OS-specific files
+*.swp
+*.DS_Store
+*.directory
+Thumbs.db
+*.bak
+
+# vcpkg-related
+/vcpkg_installed/
+/vcpkg_buildtrees/
+/vcpkg_packages/
+/vcpkg_downloads/
+
+# User-specific files
+*.user
+*.code-workspace
+.cache/clangd/index
